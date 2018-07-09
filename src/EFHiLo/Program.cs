@@ -1,7 +1,10 @@
-﻿using EFHiLo.Models;
+﻿using System.Linq;
+using EFHiLo.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Newtonsoft.Json;
 using System;
+using System.Collections.Generic;
 using System.IO;
 
 namespace EFHiLo
@@ -21,9 +24,9 @@ namespace EFHiLo
 
             var db = new HiLoContext(dbContextOptionBuilder.UseSqlServer(config.GetConnectionString("HiLoConnection")).Options);
 
-            db.Users.Add(new User() { Name = "Hua", CreateTime = DateTime.Now });
-            db.VipUsers.Add(new VipUser() { Name = "w", CreateTime = DateTime.Now });
-            db.SaveChanges();
+            //db.Users.Add(new User() { Name = "Hua", CreateTime = DateTime.Now });
+            //db.VipUsers.Add(new VipUser() { Name = "w", CreateTime = DateTime.Now });
+            //db.SaveChanges();
         }
     }
 }
