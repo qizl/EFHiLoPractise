@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFHiLoPractise", "EFHiLoPractise\EFHiLoPractise.csproj", "{CAA14B75-83B8-4567-A6CA-747EE532714C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFHiLoPractise", "EFHiLoPractise\EFHiLoPractise.csproj", "{CAA14B75-83B8-4567-A6CA-747EE532714C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFHiLo", "EFHiLo\EFHiLo.csproj", "{7FD35D74-E9D4-43D4-9778-06DC222FD1FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{CAA14B75-83B8-4567-A6CA-747EE532714C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAA14B75-83B8-4567-A6CA-747EE532714C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAA14B75-83B8-4567-A6CA-747EE532714C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FD35D74-E9D4-43D4-9778-06DC222FD1FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FD35D74-E9D4-43D4-9778-06DC222FD1FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FD35D74-E9D4-43D4-9778-06DC222FD1FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FD35D74-E9D4-43D4-9778-06DC222FD1FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

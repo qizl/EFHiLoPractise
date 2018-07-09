@@ -32,7 +32,7 @@ namespace EFHiLoPractise
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            //services.AddDbContext<HiLoContext>(options => options.UseSqlServer(Configuration.GetConnectionString("HiLoContext")));
+            services.AddDbContext<HiLoContext>(options => options.UseSqlServer(Configuration.GetConnectionString("HiLoConnection")));
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
